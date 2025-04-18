@@ -8,14 +8,19 @@
  * @source 
 */
 
-/*licensed under the CandyPx "OPENMODIFICATION License"*/
+/*licensed under the CandyPx "OPENMODIFICATION" License.*/
 
+/*disable features by changing the "display:" property from "none" to "" (aka nothing) & vice versa*/
 
 /*Start removing stuff*/
 
 
 /*Removes the "Nitro" button between Friends and Shop in the DM list*/
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > div.sidebarList_c48ade.sidebarListRounded_c48ade > nav > div.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c > ul > li:nth-child(3){
+	display: none;
+}
+/*Remove "Shop" button below "Nitro" button in the DM list*/
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > div.sidebarList_c48ade.sidebarListRounded_c48ade > nav > div.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c > ul > li:nth-child(4) > div > a{
 	display: none;
 }
 /*undefined/not sure*/
@@ -32,6 +37,18 @@
 }
 /*Removes now playing column*/
 .nowPlayingColumn__133bf{
+	display: none;
+}
+/*Remove Activity (off by default, looks ugly)*/
+.container__0f2e8.openOnHover__0f2e8, .headerContainer__095fe{
+	display: ;
+}
+/*Remove member count*/
+.vc-membercount-widget.vc-membercount-member-list{
+	display: none;
+}
+/*Remove Boost Goals from server channel list*/
+#channels > ul > li:nth-child(3) > div, #channels > ul > div:nth-child(2){
 	display: none;
 }
 /*End removing stuff*/
