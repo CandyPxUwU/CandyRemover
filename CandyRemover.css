@@ -1,0 +1,37 @@
+/**
+ * @name Candy's Remover
+ * @author CandyPx
+ * @authorLink
+ * @version 0.9
+ * @invite 
+ * @description Goodbye, Bullshit. Declutters Discord by getting rid of duplicate buttons and bullshit ads.
+ * @source 
+*/
+
+/*licensed under the CandyPx "OPENMODIFICATION License"*/
+
+
+/*Start removing stuff*/
+
+
+/*Removes the "Nitro" button between Friends and Shop in the DM list*/
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > div.sidebarList_c48ade.sidebarListRounded_c48ade > nav > div.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c > ul > li:nth-child(3){
+	display: none;
+}
+/*undefined/not sure*/
+.visible__2d0ab{
+	display: none;
+}
+/*Removes the "Play Again" section in DM list*/
+.container__675e5, .sectionDivider__35e86{
+	display: none;
+}
+/*Removes view full profile button*/
+.button__201d5.lookBlank__201d5.footerButtonColor__537ec.sizeLarge__201d5.fullWidth__201d5.grow__201d5{
+	display: none;
+}
+/*Removes now playing column*/
+.nowPlayingColumn__133bf{
+	display: none;
+}
+/*End removing stuff*/
